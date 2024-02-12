@@ -44,111 +44,111 @@ print("  # \033[1;34m[ 29 ] >> \033[1;36;40mEXIT UTILITY")
 op=int(raw_input("Options: "))
 
 if(op==1):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=750&country=all"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==2):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=750&country=US"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==3):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=RU"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==4):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=UA"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==5):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=IN"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==6):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=IT"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==7):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=CA"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==8):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=FR"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==9):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=TH"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==10):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1000&country=PL"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==11):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=2100&country=NL"
+  proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==12):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=MX"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==13):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=KZ"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==14):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=IR"
+  proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==15):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=EG"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==16):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=2250&country=HK"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==17):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=DE"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==18):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=VN"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==19):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=HU"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==20):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=BR"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==21):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=JP"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==22):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1500&country=KH"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==23):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=1250&country=CN"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==24):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=2250&country=CL"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==25):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=all&timeout=500&country=all&ssl=all"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==26):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=750&country=all"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==27):
- proxyDomain = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=750&country=all"
+ proxyDomain = ""
  system = requests.get(proxyDomain).text
  print(system)
 elif(op==28):
